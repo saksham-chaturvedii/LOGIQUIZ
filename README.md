@@ -1,2 +1,12 @@
 # LOGIQUIZ ✔
-A Quiz web-application created using Javascript, HTML &amp; CSS..
+## A Quiz web-application created using Javascript, HTML & CSS.
+* As the name of the project may indicate, the quiz contains basic questions on ```Logical Reasoning```.
+* <b>Total Questions</b>: 6
+
+
+### RULES:
+* Only ```1``` answer's ```correct```.
+* For each correct answer, score gets incremented by 1.
+
+### LIVE WORKING
+https://user-images.githubusercontent.com/81289215/126513725-f6204fc1-687a-450a-8f6d-5e44482cb6e9.mov
