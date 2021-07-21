@@ -6,7 +6,7 @@
 
 ### RULES:
 * Only ```1``` answer's ```correct```.
-* For each correct answer, the score gets incremented by 1.
+* For each correct answer, the ```score``` gets incremented by ```1```.
 
 ### LIVE WORKING
 https://user-images.githubusercontent.com/81289215/126513725-f6204fc1-687a-450a-8f6d-5e44482cb6e9.mov
