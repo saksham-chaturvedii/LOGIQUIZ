@@ -11,4 +11,5 @@
 ### WORKING
 * On choosing a ```correct``` answer, the button color changes to ```GREEN```.
 * Else, the button color changes to ```RED``` and the correct answer is highlighted simultaneously.\
-https://user-images.githubusercontent.com/81289215/126513725-f6204fc1-687a-450a-8f6d-5e44482cb6e9.mov
+
+https://user-images.githubusercontent.com/81289215/126550624-e2ab6dc6-b156-4979-8167-e536fbc5c6a8.mov
