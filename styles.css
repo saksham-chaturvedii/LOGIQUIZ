@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+  letter-spacing: 2px;
+  overflow-x: hidden;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem 10rem 0rem 10rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-y: scroll;
+}
+
+#quiz-heading {
+  align-self: flex-start;
+  margin: 4rem 0rem 0.2rem 0rem;
+  font-size: 2.2em;
+}
+#score-display
+{
+  align-self: flex-end;
+  margin-right: 5rem;
+}
+p{
+  align-self: flex-start;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+.style-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.322);
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    width: 100%;
+    min-height: max-content;
+    min-width: fit-content;
+    margin: 1.5rem 0rem;
+}
+
+.question {
+  align-self: flex-start;
+  font-size: 1.5em;
+}
+
+.answer-container
+{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.answer-button
+{
+  margin: 1rem 2rem;
+  width: 9rem;
+  height: 2rem;
+  cursor: pointer;
+  border: 2px solid rgba(153, 0, 255, 0.671);
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+  border-radius: 4px;
+  letter-spacing: 2px;
+}
+.answer-button:hover
+{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 4px;
+}
+#accent
+{
+   color: rgba(153, 0, 255, 0.671);
+}
+
+.correct_option
+{
+  background-color: rgba(0, 128, 0, 0.616);
+}
+.incorrect_option
+{
+  background-color: rgba(255, 0, 0, 0.726);
+}
+/* .anim::after
+{ 
+  animation:  typewrite 0.3s linear forwards;
+  content: "";
+}
+@keyframes typewrite {
+  0%{content: "";}
+  25%{content: "a";}
+  50%{content: "ab";}
+  75%{content: "abc";}
+  100%{content: "abcd";}
+} */
