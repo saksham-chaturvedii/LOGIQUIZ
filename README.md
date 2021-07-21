@@ -1,4 +1,4 @@
-# LOGIQUIZ ✔
+# <a href="https://saksshham.github.io/LOGIQUIZ/">LOGIQUIZ ✔</a>
 ## A Quiz web-application created using Javascript, HTML & CSS.
 * As the name of the project may indicate, the quiz contains basic questions on ```Logical Reasoning```.
 * <b>Total Questions</b>: 6
